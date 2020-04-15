@@ -7,6 +7,8 @@
         v-for="(squareValue, position) in squares"
         :key="position"
         :value="squareValue"
+        :is-game-over="isGameOver"
+        :is-winner="isWinner"
         @click="onSquareClick(position)"
       />
     </div>
@@ -33,8 +35,14 @@ export default {
     winner() {
       return getWinner(this.squares);
     },
+    isWinner() {
+      return this.winner.positions.length > 0;
+    },
     isDrawGame() {
       return this.squares.filter(square => !square).length === 0;
+    },
+    isGameOver() {
+      return this.isDrawGame || this.winner.player;
     }
   },
   methods: {
