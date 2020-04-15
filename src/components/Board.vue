@@ -8,7 +8,7 @@
         :key="position"
         :value="squareValue"
         :is-game-over="isGameOver"
-        :is-winner="isWinner"
+        :is-winner="isWinner(position)"
         @click="onSquareClick(position)"
       />
     </div>
@@ -35,9 +35,6 @@ export default {
     winner() {
       return getWinner(this.squares);
     },
-    isWinner() {
-      return this.winner.positions.length > 0;
-    },
     isDrawGame() {
       return this.squares.filter(square => !square).length === 0;
     },
@@ -52,6 +49,9 @@ export default {
       }
       this.$set(this.squares, position, this.player);
       this.player = this.player === "X" ? "O" : "X";
+    },
+    isWinner(position) {
+      return this.winner.positions.includes(position);
     }
   }
 };
