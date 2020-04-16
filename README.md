@@ -5,7 +5,7 @@
 👉 The project is hosted on Heroku here: https://tic-tac-toe--vuejs.herokuapp.com/#/
 🙏 Made thanks to a tutorial from Malt. The original repo here: https://github.com/nicolaspayot/vue-ttt-game/
 
-# 🧑‍🏫 Rules
+# 📚 Rules
 
 * The game is played on a grid that's **3 squares by 3 squares**.
 * The first player is **X**, the second player is **O** (both players are human).
@@ -20,6 +20,7 @@
 * **changed the design**: changed colors, resized elements so that it fits smaller screens, added a logo
 
 # What it looks like
+[![Welcome-page](https://iili.io/JzGPja.png)](https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174544.JzGPja)
 
 [Welcome-page]: https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174544.JzGPja
 [First-move]: https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174612.JzGiZJ
