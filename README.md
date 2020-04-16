@@ -1,6 +1,6 @@
 # ❌⭕️ Tic Tac Toe made with Vue.js 
 
-## A Tic Tac Toe game built with Vue.js (with vue-router & vuex) and deployed on Heroku
+### A Tic Tac Toe game built with Vue.js (with vue-router & vuex) and deployed on Heroku
 
 👉 The project is hosted on Heroku here: https://tic-tac-toe--vuejs.herokuapp.com/#/
 🙏 Made thanks to a tutorial from Malt. The original repo here: https://github.com/nicolaspayot/vue-ttt-game/
@@ -15,8 +15,9 @@
 # What I changed from the tutorial
 
 * **added constraints**: 
-- when there is a winner, it is not possible to click on any other empty cell
-- when the player names are empty: the status component will still display "X" or "O" and not an empty string
+-- when there is a winner, it is not possible to click on any other empty cell
+-- when the player names are empty: the status component will still display "X" or "O" and not an empty string
+
 * **changed the design**: changed colors, resized elements so that it fits smaller screens, added a logo
 
 # What it looks like
@@ -24,8 +25,3 @@
 [![First-move](https://iili.io/JzGiZJ.png)](https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174612.JzGiZJ)
 [![Second-move](https://iili.io/JzGLCv.png)](https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174845.JzGLCv)
 [![Winner](https://iili.io/JzGQGR.png)](https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174639.JzGQGR)
-
-[Welcome-page]: https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174544.JzGPja
-[First-move]: https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174612.JzGiZJ
-[Second-move]: https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174845.JzGLCv
-[Winner]: https://freeimage.host/i/capture-d-ecran-2020-04-16-a-174639.JzGQGR
