@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     onSquareClick(position) {
-      if (this.squares[position]) {
+      if (this.squares[position] || this.winner.player) {
         return;
       }
       this.$set(this.squares, position, this.player);
