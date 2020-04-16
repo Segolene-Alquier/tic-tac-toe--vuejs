@@ -2,8 +2,8 @@
   &__board {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     background-color: $color-primary--light;
     color: #fff;
     border: 6px solid $color-primary;

@@ -5,7 +5,7 @@
     align-items: center;
     border: 6px solid $color-primary;
     font-weight: bold;
-    font-size: 6em;
+    font-size: 4em;
     transition: all 0.1s;
 
     &:not(.game__box--x):not(.game__box--o):not(.game__box--over) {
