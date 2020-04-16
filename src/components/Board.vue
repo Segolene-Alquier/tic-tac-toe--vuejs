@@ -12,6 +12,7 @@
         @click="onSquareClick(position)"
       />
     </div>
+    <Restart @click="reset()" />
   </div>
 </template>
 
@@ -19,11 +20,13 @@
 import Status from "./Status";
 import Square from "./Square";
 import getWinner from "./../utils/winner";
+import Restart from "./Restart";
 
 export default {
   components: {
     Square,
-    Status
+    Status,
+    Restart
   },
   data() {
     return {
@@ -52,6 +55,10 @@ export default {
     },
     isWinner(position) {
       return this.winner.positions.includes(position);
+    },
+    reset() {
+      this.player = "X";
+      this.squares = Array(9).fill(null);
     }
   }
 };
