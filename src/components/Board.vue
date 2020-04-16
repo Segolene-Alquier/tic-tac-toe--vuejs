@@ -57,8 +57,7 @@ export default {
       return this.winner.positions.includes(position);
     },
     reset() {
-      this.player = "X";
-      this.squares = Array(9).fill(null);
+      this.$router.push("/");
     }
   }
 };
